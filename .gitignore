@@ -5,4 +5,5 @@
 /.settings/
 */.classpath
 */.project
- /target/classes/META-INF/
+/target/classes/META-INF/
+target/
