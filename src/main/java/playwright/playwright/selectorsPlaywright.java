@@ -7,7 +7,6 @@ import com.microsoft.playwright.Playwright;
 public class selectorsPlaywright {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.out.println("Starting browser");
 		Playwright playwright = Playwright.create();
 		Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 		
@@ -26,7 +25,11 @@ public class selectorsPlaywright {
 //		id, data-testid, data-test-id, data-test
 //		pick nth match from query result
 //		chaining selectors
-//		
+		
+		//use below tags
+//		div.vinayak   --div tag and . is for class and vinayak is classname 
+//		div#vinayak   --div is tag, # is for id and vinayak is id value
+//		select#Form_getForm_Country option  --select tag, #is for id, Form_getForm_country is id value, option is child tag
 		
 	}
 
