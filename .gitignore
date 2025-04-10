@@ -7,3 +7,5 @@
 */.project
 /target/classes/META-INF/
 target/
+/resources/FailedTests
+/resources/PassedTest

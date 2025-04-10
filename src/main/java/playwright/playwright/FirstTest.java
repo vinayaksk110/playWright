@@ -23,19 +23,22 @@ public class FirstTest {
 
 			// Use Webkit to test mac safari in windows machine
 //			Browser browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
-			
-			//With launch options
+
+			// With launch options
 			LaunchOptions lp = new LaunchOptions();
 			lp.setHeadless(false);
-			//to open actual chrome instea of chromium use below line
+			// to open actual chrome instea of chromium use below line
 			lp.setChannel("chrome");
-			//edge browser uses chromium
+			// edge browser uses chromium
 //			lp.setChannel("msedge");
-			//firefox browser
+			// firefox browser
 //			lp.setChannel("firefox");
-			
+
 			Browser browser = playwright.chromium().launch(lp);
 //			Browser browser = playwright.firefox().launch(lp);
+
+//			Each BrowserContext can have multiple pages. A Page refers to a single tab or a popup window 
+//			within a browser context. It should be used to navigate to URLs and interact with the page content.
 			Page page = browser.newPage();
 
 			page.navigate("https://www.idrive.com/idrive/login/loginForm");
