@@ -4,7 +4,7 @@ import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Playwright;
 
-public class selectorsPlaywright {
+public class selectorsPlaywrightInfo {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.out.println("Starting browser");
@@ -12,7 +12,7 @@ public class selectorsPlaywright {
 		Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 		
 		//different selectors
-//		test selector
+//		text selector
 //		CSS selector
 //		selecting by visible elements
 //		selecting elements that contain other elements
