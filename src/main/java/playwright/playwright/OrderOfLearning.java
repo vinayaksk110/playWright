@@ -9,7 +9,7 @@ public class OrderOfLearning {
 	//maximizingbrowser
 	//textselector
 	//framehandling
-	//ShadowDomSelector - in progress
-	//Selecting visible elements
+	//ShadowDomSelector
+	//VisibleElements - Selecting visible elements 
 
 }
