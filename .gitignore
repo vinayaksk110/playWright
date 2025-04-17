@@ -9,3 +9,4 @@
 target/
 /resources/FailedTests
 /resources/PassedTest
+/test-output/
