@@ -1,4 +1,4 @@
-package Excel;
+package Utilities;
 
 public class UserCredentials {
 

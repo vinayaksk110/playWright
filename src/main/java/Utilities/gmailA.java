@@ -1,4 +1,4 @@
-package Excel;
+package Utilities;
 
 import javax.mail.*;
 import javax.mail.internet.*;

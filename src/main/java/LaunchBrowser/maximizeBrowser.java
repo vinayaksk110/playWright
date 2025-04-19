@@ -1,4 +1,4 @@
-package playwright.playwright;
+package LaunchBrowser;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
