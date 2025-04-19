@@ -1,4 +1,4 @@
-package playwright.playwright;
+package BrowserHandling;
 
 import java.util.List;
 

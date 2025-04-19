@@ -1,4 +1,4 @@
-package LaunchBrowser;
+package launchBrowser;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;

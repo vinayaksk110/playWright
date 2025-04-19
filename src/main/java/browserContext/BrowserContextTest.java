@@ -1,4 +1,4 @@
-package BrowserContext;
+package browserContext;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;

@@ -1,18 +1,21 @@
-package LaunchBrowser;
+package launchBrowser;
 
 import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserType.LaunchOptions;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.BrowserType.LaunchOptions;
 
-public class LaunchWebkitBrowserHeadless {
+public class LaunchFirefoxBrowserHeadeless {
 	
 	public static void main(String[] args) {
 		Playwright playwright = Playwright.create();
 
 		LaunchOptions lp = new LaunchOptions();
+		
+		// firefox browser
+		lp.setChannel("firefox");
 
-		Browser browser = playwright.webkit().launch(lp);
+		Browser browser = playwright.firefox().launch(lp);
 
 		Page page = browser.newPage();
 		

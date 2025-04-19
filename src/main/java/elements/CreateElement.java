@@ -1,4 +1,4 @@
-package playwright.playwright;
+package elements;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;

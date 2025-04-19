@@ -1,4 +1,4 @@
-package playwright.playwright;
+package FrameHandling;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;

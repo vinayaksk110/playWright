@@ -1,21 +1,17 @@
-package LaunchBrowser;
+package launchBrowser;
 
 import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserType.LaunchOptions;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.BrowserType.LaunchOptions;
 
-public class LaunchFireFoxBrowserUI {
+public class LaunchChromiumBrowserHeadless {
 	
 	public static void main(String[] args) {
 		Playwright playwright = Playwright.create();
 
 		LaunchOptions lp = new LaunchOptions();
-		lp.setHeadless(false);
-		// to open actual chrome instead of chromium use below line
-		lp.setChannel("firefox");
-
-		Browser browser = playwright.firefox().launch(lp);
+		Browser browser = playwright.chromium().launch(lp);
 
 		Page page = browser.newPage();
 		
