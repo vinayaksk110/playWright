@@ -22,7 +22,7 @@ public class BrowserContextTest {
 
 		BrowserContext br1 = browser.newContext();
 		Page p1 = br1.newPage();
-		p1.navigate("https://www.idrive.com/idrive/login/loginForm");
+		p1.navigate("https://www.idrive360.com/enterprise/login");
 		System.out.println(p1.title());
 
 		br1.close();
